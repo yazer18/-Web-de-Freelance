@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viajes Virtuales</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap" rel="stylesheet">
+    
+    <style>
+        /* Estilos generales y fondo de la página */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            color: #333;
+        }
+
+        /* Estilo del encabezado principal (el banner superior) */
+        .hero-banner {
+            background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('https://img.freepik.com/foto-gratis/hermosos-paisajes-naturales-cascadas_23-2150787950.jpg?semt=ais_incoming&w=740&q=80') no-repeat center center;
+            background-size: cover;
+            height: 50vh; /* Altura del banner */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+            text-align: center;
+        }
+
+        .hero-banner h1 {
+            font-family: 'Oswald', sans-serif;
+            font-size: 3em;
+            margin: 0;
+            letter-spacing: 2px;
+        }
+        
+        .hero-banner p {
+            font-size: 1.2em;
+        }
+
+        /* Estilos para el menú de navegación */
+        .main-nav {
+            background-color: #fff;
+            padding: 15px 0;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+
+        .main-nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .main-nav a {
+            text-decoration: none;
+            color: #555;
+            font-weight: bold;
+            padding: 10px 15px;
+            transition: color 0.3s;
+        }
+
+        .main-nav a:hover {
+            color: #007bff;
+        }
+
+        /* Estilos para el contenido principal y los enlaces */
+        .container {
+            max-width: 960px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            border-radius: 8px;
+        }
+
+        .destinations {
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        .destination-links {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .destination-links a {
+            display: block;
+            background-color: #007bff;
+            color: #fff;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            text-transform: uppercase;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+        }
+
+        .destination-links a:hover {
+            background-color: #0056b3;
+            transform: translateY(-3px);
+        }
+
+        .footer-link {
+            display: inline-block;
+            background-color: #6c757d;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+
+        .footer-link:hover {
+            background-color: #5a6268;
+        }
+    </style>
+</head>
+<body>
+
+    <header class="hero-banner">
+        <h1>Viajes Virtuales</h1>
+        <p>No he recorrido todo el mundo, pero pienso hacerlo</p>
+    </header>
+
+    <nav class="main-nav">
+        <ul>
+            <li><a href="Nosotros.html">Sobre Nosotros</a></li>
+        </ul>
+    </nav>
+    
+    <div class="container">
+        <h2>Bienvenidos a Viajes Virtuales</h2>
+        <p>Descubre el mundo desde la comodidad de tu hogar. Nuestra agencia de viajes virtual te ofrece experiencias inmersivas de los destinos más increíbles del planeta. Explora culturas, paisajes y aventuras sin límites.</p>
+        <p>Con Viajes Virtuales podrás conocer lugares extraordinarios, planificar tus próximas aventuras reales o simplemente disfrutar de la belleza del mundo desde donde estés. Cada destino está cuidadosamente seleccionado para ofrecerte la mejor experiencia virtual.</p>
+
+        <div class="destinations" id="destinos">
+            <h3>Destinos Disponibles</h3>
+            <ul class="destination-links">
+                <li><a href="España.html">Toledo, España</a></li>
+                <li><a href="moscu.html">Moscú, Rusia</a></li>
+                <li><a href="paris.html">París, Francia</a></li>
+                <li><a href="malta.html">Malta, Europa</a></li>
+            </ul>
+        </div>
+    </div>
+    
+    <footer>
+        <p>&copy; 2025 Viajes Virtuales. Todos los derechos reservados.</p>
+        <p>Proyecto académico - Desarrollo Web</p>
+    </footer>
+
+</body>
+</html>
